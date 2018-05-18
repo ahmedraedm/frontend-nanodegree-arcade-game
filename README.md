@@ -1,6 +1,39 @@
-frontend-nanodegree-arcade-game
-===============================
+# Frontend-Nanodegree-arcade-game
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+This game is a requirement project in the _[Udacity Font-End Web developer Nanodegree program](https://eg.udacity.com/course/front-end-web-developer-nanodegree--nd001)_. The game directory contains:
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+1- **_js folder_** which contains the javascript _app.js_ file.
+
+2- **_css folder_** which contains the styles _app.css_ file.
+
+3- **_images folder_** which contains the game images.
+
+4- **README.md** file.
+
+## Getting started
+
+Download the game either as a zip file or by cloning the git repository as follows:
+
+`git clone https://github.com/ahmedraedm/frontend-nanodegree-arcade-game.git MemoryGame`
+
+`cd MemoryGame`
+
+Open the file _**index.html**_ , & enjoy the game ;)
+
+## How to play
+
+**The game consists of:**
+
+1- Ground base classified into 3 regions: Grass blocks, Stone blocks, Water blocks.
+
+1- Single player of a boy character.
+
+2- 6 Bug enemies, 2 bugs per each row.
+
+**To Win the game:**
+
+Move the boy character safely from the green grass blocks to the blue river without being hit by the enemy bugs
+
+## License
+
+This game is a public work. Feel free to do what ever you want with it.
