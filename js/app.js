@@ -52,26 +52,38 @@ Player.prototype.render = function() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 };
 // Place the player object in a variable called player
-let myPlayer = new Player(200,315);
+let myPlayer = new Player(200,400);
 var player = myPlayer;
 // player handleInput() method.
 player.handleInput = function(key){
   switch (key) {
     case 'left':
+      if (this.x===0) {
+      this.x=0;
+    }else{
       xPlayer=-100;
       yPlayer=0 // no change
+    }
       break;
     case 'up':
       xPlayer= 0; // no change
       yPlayer= -85
       break;
     case 'right':
+      if (this.x===400) {
+      this.x=400;
+    }else{
       xPlayer= 100;
       yPlayer= 0 // no change
+    }
       break;
     case 'down':
+      if (this.y===400) {
+      this.y=400;
+    }else{
       xPlayer= 0; // no change
       yPlayer= 85
+    }
       break;
   }
 }
